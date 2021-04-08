@@ -26,5 +26,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASS }}
-          source: "source"
+          source: "source/*"
           target: "/var/www/mrinmoydutta.site/public_html"
